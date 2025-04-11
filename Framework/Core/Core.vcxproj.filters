@@ -2,21 +2,21 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Inc">
-      <UniqueIdentifier>{18a21028-d447-4d8b-a7ac-6114052d596f}</UniqueIdentifier>
+      <UniqueIdentifier>{04d85bbe-4a83-4cfd-988c-818a31757c8a}</UniqueIdentifier>
     </Filter>
     <Filter Include="Src">
-      <UniqueIdentifier>{ced64d0b-c889-41cd-b90e-8f556b380ab0}</UniqueIdentifier>
+      <UniqueIdentifier>{e2752b60-65e8-4980-a8d2-257226267407}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Inc\Core.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
     <ClInclude Include="Inc\Common.h">
       <Filter>Inc</Filter>
     </ClInclude>
     <ClInclude Include="Src\Precompiled.h">
       <Filter>Src</Filter>
-    </ClInclude>
-    <ClInclude Include="Inc\DaEngine.h">
-      <Filter>Inc</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
