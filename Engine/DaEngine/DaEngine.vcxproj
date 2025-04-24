@@ -149,6 +149,9 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\DaEngine\Framework\Math\Math.vcxproj">
+      <Project>{7e9d9c65-7b01-4644-9b0b-08ebd9fec4c5}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\..\Framework\Core\Core.vcxproj">
       <Project>{9e7e064d-de23-4e94-a54e-f71fcffb700c}</Project>
     </ProjectReference>
