@@ -13,7 +13,7 @@ namespace DaEngine
 
     class App final
     {
-    public:
+      public:
         void Run(const AppConfig& config);
         void Quit();
 
@@ -36,7 +36,7 @@ namespace DaEngine
             }
         }
         void ChangeState(const std::string& stateName);
-    private:
+     private:
         using AppStateMap = std::map<std::string, std::unique_ptr<AppState>>;
 
         AppStateMap mAppStates;
@@ -45,3 +45,4 @@ namespace DaEngine
 
         bool mRunning = false;
     };
+}

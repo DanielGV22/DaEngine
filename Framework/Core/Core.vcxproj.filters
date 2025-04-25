@@ -9,14 +9,17 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Inc\Core.h">
+    <ClInclude Include="Src\Precompiled.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowMessageHandler.h">
       <Filter>Inc</Filter>
     </ClInclude>
     <ClInclude Include="Inc\Common.h">
       <Filter>Inc</Filter>
     </ClInclude>
-    <ClInclude Include="Src\Precompiled.h">
-      <Filter>Src</Filter>
+    <ClInclude Include="Inc\Core.h">
+      <Filter>Inc</Filter>
     </ClInclude>
     <ClInclude Include="DebugUtil.h">
       <Filter>Inc</Filter>
@@ -25,9 +28,6 @@
       <Filter>Inc</Filter>
     </ClInclude>
     <ClInclude Include="Window.h">
-      <Filter>Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="WindowMessageHandler.h">
       <Filter>Inc</Filter>
     </ClInclude>
   </ItemGroup>
