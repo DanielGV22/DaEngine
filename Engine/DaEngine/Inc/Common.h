@@ -1,5 +1,5 @@
 #pragma once
 
-// incldes external libraries
+// includes external libraries
 #include<Core/Inc/Core.h>
 #include <Math/Inc/DWMath.h>
